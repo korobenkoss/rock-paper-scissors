@@ -7,7 +7,6 @@
     <title>Rock Paper Scissors</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="game.js"></script>
 </head>
 <body>
     <div class="game-container">
@@ -15,10 +14,14 @@
             Game info will go here
         </div>
         <div class="buttons">
-            <button id="rock">Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissors">Scissors</button>
+            <button id="rock" class="player-selection" value="rock">Rock</button>
+            <button id="paper" class="player-selection" value="paper">Paper</button>
+            <button id="scissors" class="player-selection" value="scissors">Scissors</button>
+        </div>
+        <div class="reset-button">
+            <button id="reset">New Game</button>
         </div>
     </div>
 </body>
+<script src="game.js"></script>
 </html>
