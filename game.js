@@ -95,8 +95,8 @@ move.forEach(m => {
     m.addEventListener('click', e => {
         let player = m.value;
         let computer = computerPlay();
-        console.log('Player: ' + player);
-        console.log('Computer: ' + computer);
+        // console.log('Player: ' + player);
+        // console.log('Computer: ' + computer);
 
         updateScore(player, computer);
         checkWinner();
